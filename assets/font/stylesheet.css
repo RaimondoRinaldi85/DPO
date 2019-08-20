@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Kungfont';
+    src: url('Kungfont-Regular.eot');
+    src: url('Kungfont-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Kungfont-Regular.woff2') format('woff2'),
+        url('Kungfont-Regular.woff') format('woff'),
+        url('Kungfont-Regular.ttf') format('truetype'),
+        url('Kungfont-Regular.svg#Kungfont-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
