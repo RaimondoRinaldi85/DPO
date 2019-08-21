@@ -16,9 +16,8 @@
 }
 
 body{
-	font-family: 'kungfont' !important;
-	letter-spacing: 3px;
 	background: #e8ecef;
+	font-family: 'Montserrat';
 }
 
 a:hover{
@@ -32,7 +31,9 @@ a:hover{
 	font-weight: 700;
 	font-size: .9rem;
 	letter-spacing: .1rem;
-	background: rgba(76, 76, 77, 0.712) !important;
+	background: linear-gradient(33deg, #41d8dd70, #5583ee70) !important;
+	font-family: 'kungfont' !important;
+	letter-spacing: 3px;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -40,7 +41,7 @@ a:hover{
 	padding: 1rem 1rem;
 }
 .navbar-custom .navbar-nav .nav-link:hover {
-	color: blue !important;
+	color: rgb(122, 177, 231) !important;
 }
 
 .navbar-toggler {
@@ -69,12 +70,16 @@ a:hover{
 	text-shadow: 7px 5px 7px black;
 	padding-bottom: 1rem;
 	animation: DPO 2.5s forwards 0s linear;
+	font-family: 'kungfont' !important;
+	letter-spacing: 3px;
 }
 
 .caption h3 {
 	font-size: 2rem;
 	text-shadow: 7px 5px 7px black;
 	padding-bottom: 1.6rem;
+	font-family: 'kungfont' !important;
+	letter-spacing: 3px;
 }
 
 .btn-lg {
@@ -82,6 +87,8 @@ a:hover{
 	border-radius: 0;
 	padding: .6rem 1.3rem;
 	font-size: 1.1rem;
+	font-family: 'kungfont' !important;
+	letter-spacing: 3px;
 }
 
 @keyframes DPO{
@@ -104,7 +111,7 @@ a:hover{
 }
 
 .dark {
-	background-color: rgba(22, 79, 97, 0.75);
+	background: linear-gradient(33deg, #c1e3ff75, #abc7ff75);
 	color: white;
 	padding: 7rem 2rem;
 }
@@ -154,7 +161,7 @@ blockquote .svg-inline--fa {
 
 /* Start Contact Section */
 footer {
-	background-color: #40474e;
+	background: linear-gradient(33deg, #41d8dd, #5583ee);
 	color: white;
 	padding: 2rem 0 2rem;
 	margin-top: 1rem;
@@ -180,7 +187,7 @@ footer svg.svg-inline--fa:hover {
 
 hr.socket {
 	width: 100%;
-	border-top: .2rem solid #666b71;
+	border-top: .2rem solid #80b3f1b4;
 	margin-top: 3rem;
 }
 /* End Contact Section */
